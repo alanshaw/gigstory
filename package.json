@@ -1,0 +1,23 @@
+{
+  "name": "gigstory",
+  "version": "0.0.0",
+  "description": "Gig history visualisation, as told by Alan",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gig",
+    "show",
+    "band"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "dependencies": {
+    "debounce": "0.0.3"
+  },
+  "devDependencies": {
+    "browserify": "~2.34.1"
+  }
+}
